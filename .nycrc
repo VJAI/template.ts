@@ -1,0 +1,15 @@
+{
+  "extension": [
+    ".ts"
+  ],
+  "exclude": [
+    "**/*.d.ts",
+    "build/**/*.*",
+    "src/index.ts",
+    "test/**/*.*",
+    ".eslintrc.js",
+    "karma.conf.js",
+    "webpack/*.js"
+  ],
+  "all": true
+}
