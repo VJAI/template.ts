@@ -1,6 +1,10 @@
 {
-    "extends": "./tsconfig.base.esm.json",
-    "files": [],
-    "references": [
-    ]
+  "extends": "./tsconfig.es5.json",
+  "compilerOptions": {
+    "module": "ES6",
+    "moduleResolution": "node"
+  },
+  "files": [],
+  "references": [
+  ]
 }

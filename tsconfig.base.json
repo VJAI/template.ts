@@ -1,5 +1,12 @@
 {
     "compilerOptions": {
+      "rootDir": ".",
+      "outDir": "build",
+      "skipLibCheck": true,
+      "include": [
+        "src/**/*.ts",
+        "test/**/*.ts"
+      ],
       "allowUnreachableCode": false,
       "allowUnusedLabels": false,
       "composite": true,
