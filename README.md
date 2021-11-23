@@ -1,4 +1,4 @@
-# TypeScript Project Template
+# template.ts
 
-Ref: https://github.com/open-telemetry/opentelemetry-js
+A simple typescript project template created after inspiration from https://github.com/open-telemetry/opentelemetry-js.
 

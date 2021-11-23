@@ -45,7 +45,6 @@ module.exports = {
         "Function": null,
       }
     }],
-    "@typescript-eslint/no-shadow": ["warn"],
     "arrow-parens": ["error", "as-needed"],
     "node/no-deprecated-api": ["warn"]
   },
@@ -57,11 +56,10 @@ module.exports = {
         "@typescript-eslint/ban-ts-ignore": "off",
         "@typescript-eslint/no-empty-function": "off",
         "@typescript-eslint/no-explicit-any": "off",
-        "@typescript-eslint/no-floating-promises": 1,
+        "@typescript-eslint/no-floating-promises": "off",
         "@typescript-eslint/no-unused-vars": "off",
         "@typescript-eslint/no-var-requires": "off",
         "@typescript-eslint/no-shadow": ["off"],
-        "@typescript-eslint/no-floating-promises": ["off"],
         "@typescript-eslint/no-non-null-assertion": ["off"],
         "@typescript-eslint/explicit-module-boundary-types": ["off"]
       }

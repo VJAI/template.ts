@@ -1,13 +1,10 @@
 {
-  "name": "typescript-project-template",
+  "name": "template.ts",
   "version": "1.0.0",
   "description": "A simple typescript project template",
   "scripts": {
-    "build": "rm -rf build && npm run build:cjs && npm run build:esm && npm run build:es5 && npm run build:umd",
-    "build:cjs": "tsc --build tsconfig.json",
-    "build:esm": "tsc --build tsconfig.esm.json",
-    "build:es5": "tsc --build tsconfig.es5.json",
-    "build:umd": "webpack",
+    "serve": "webpack-dev-server --config webpack.dev.config.js",
+    "build": "webpack",
     "clean": "tsc --build --clean tsconfig.json tsconfig.esm.json tsconfig.es5.json",
     "test": "nyc ts-mocha -p tsconfig.json test/**/*.test.ts --exclude 'test/platform/browser/**/*.ts'",
     "test:browser": "nyc karma start --single-run",
